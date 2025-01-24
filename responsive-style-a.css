@@ -6,25 +6,28 @@
 
 body {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 header{
     background-color: #d1d2d4;
     height: 10vh;
     width: 100%;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 
 footer{
     background-color: #d1d2d4;
     height: 10vh;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     width: 100%;
 }
 
 main{
     display: flex;
     width: 100wv;
-    height: calc(80vh - 10px);
+    height: calc(70vh - 10px);
 
 }
 .outer{

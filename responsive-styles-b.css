@@ -4,6 +4,9 @@
 }
 body{
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 header,footer{
     background-color: #d1d2d4;
@@ -12,8 +15,8 @@ header,footer{
 .container{
     display: flex;
     flex-direction: row;
-    margin: 5px 0px;
-    height: calc(80% - 10px);
+    /* margin: 5px 0px; */
+    height: 75%;
     width: 100vw;
     justify-content: stretch;
 }
