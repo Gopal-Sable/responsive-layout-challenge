@@ -35,9 +35,7 @@ main{
     
 }
 #container-a{
-  
     background-color: #ee4035
-
 }
 #container-b{
    
@@ -52,8 +50,8 @@ aside{
 }
 
 
-
-@media (max-width:1000px) {
+/* Tablet View */
+@media (max-width:1000px) and (min-width: 501px){
     .outer{
         width: 50%;
     }
@@ -62,6 +60,7 @@ aside{
     }
     
 }
+/* Mobile view */
 @media (max-width:500px) {
     main{
         flex-direction: column;
